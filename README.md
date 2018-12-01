@@ -32,7 +32,7 @@ A decision *forest*, in turn, is a collection of decision trees. A decision fore
 
 This has real advantages over only using a single decision tree: It improves classifier performance and is more resistant against "weird" training outliers. 
 
-To make things even better, adding more trees doesn't even require providing more data! Using a technique called [bootstrap sampling](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)), we can create a lot of new decision trees in a systematic way from the data we already have and more reliably deal with "weird" data at the same time!
+To make things even better, adding more trees doesn't even require providing more data! Using a technique called [bootstrap sampling](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)), we can create a lot of new decision trees in a systematic way from the data we already have while adding to its predictive strength.
 
 
 **Note**: In this implementation, we use Gini impurity to find the bins that give the best result. Due to data constraints, we used the training set for testing the accuracy of the classifier. Usually this is a bad idea, because it overestimates the suitability of the classifier and ignores defects of the training set. 
