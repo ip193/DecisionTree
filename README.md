@@ -19,7 +19,7 @@ Image classification has long counted as one of the toughest problems in machine
 
 Nevertheless, it can be helpful to understand and implement some of the classical approaches to this problem, as they still see use in other machine learning applications. Here, we implement the so-called "decision tree". 
 
-The decision tree is a discriminative classifier used to map an input vector (an image) to a class label (the digit it represents). The guiding idea behind this classifier is that we can find out what digit an image most likely represents by dividing up the set of images we know already into increasingly smaller clusters in our feature space. Once we have divided up all the images we have already seen into small clusters (bins) of images that mostly depict the same kind of image and effectively distinguishes images of different types, we can classify an unseen image based on the bin it falls in. 
+The decision tree is a discriminative classifier used to map an input vector (an image) to a class label (the digit it represents). The guiding idea behind this classifier is that we can find out what digit an image most likely represents by dividing up the set of images we know already into increasingly smaller clusters in our feature space. Once we have divided up all the images we have already seen into small clusters (bins) of images that mostly depict the same kind of image and effectively distinguish images of different types, we can classify an unseen image based on the bin it falls in. 
 
 For this task, we classified 1797 sample handwritten digits from the sklearn digits dataset to test the performance of the *decision tree* on this problem and see how its preditive power changes when scaled to the *decision forest*. 
 
