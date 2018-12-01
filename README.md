@@ -40,9 +40,10 @@ To make things even better, adding more trees doesn't even require providing mor
 
 ## Viewing the results
 
-*To show the results of the classifier in your browser, open DecisionTree.ipynb*.
+### Classification accuracy for a single decision tree is shown to range between 85 to 95% accuracy, whereas an ensemble of trees in a decision forest increases accuracy by another 5 to 10%. 
 
-Scroll to see the source code and the annotated confusion matrices below. 
+*To show the results of the classifier in your browser, open DecisionTree.ipynb and scroll to see the source code and the annotated confusion matrices below.*
+
 
 Make sure you have [Jupyter Notebook](http://jupyter.org/) installed if you want to edit or run the code in your browser!
 
