@@ -3,7 +3,7 @@
 
 # Implementing a Decision Tree Image Classifier in Python
 
-#### Using data: scikit-learn handwritten digits dataset
+#### Using data: [scikit-learn handwritten digits dataset](https://scikit-learn.org/stable/auto_examples/datasets/plot_digits_last_image.html)
 
 #### Code created for lecture "Fundamentals of Machine Learning" at Uni Heidelberg WS 2018, authors: Jakob Weichselbaumer, Eike Harms, Stephan Detert.  
 
