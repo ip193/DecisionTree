@@ -30,9 +30,9 @@ The decision tree is so called because of how it stores its decison-making funct
 
 A decision *forest*, in turn, is a collection of decision trees. A decision forest can be used as a classifier, the same way a decision tree can. The difference, however, is that the decision tree represents the classification produced by *only one tree*, whereas the decision forest takes a democratic vote of multiple individual decision trees and chooses the most common class label. Neat!
 
-This has real advantages over only using a single decision tree and improves classifier performance. 
+This has real advantages over only using a single decision tree: It improves classifier performance and is more resistant against "weird" training outliers. 
 
-To make things even better, adding more trees doesn't even require more data! Using a technique called [bootstrap sampling](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)), we can create a lot of new decision trees in a systematic way from the data we already have and more reliably deal with "weird" data at the same time!
+To make things even better, adding more trees doesn't even require providing more data! Using a technique called [bootstrap sampling](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)), we can create a lot of new decision trees in a systematic way from the data we already have and more reliably deal with "weird" data at the same time!
 
 
 **Note**: In this implementation, we use Gini impurity to find the bins that give the best result. Due to data constraints, we used the training set for testing the accuracy of the classifier. Usually this is a bad idea, because it overestimates the suitability of the classifier and ignores defects of the training set. 
