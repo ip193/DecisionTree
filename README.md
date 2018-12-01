@@ -15,7 +15,7 @@
 *Image: Sample digits from the sklearn handwritten digits dataset*
 
 
-Image classification has long counted as one of the toughest problems in machine learning. Given a new image, how can we get a computer to determine what it depicts? Recent advances in machine learning, especially among neural network variants, have seen great progress made on the task. 
+Image classification has long counted as one of the toughest problems in machine learning: Given a new image, how can we get a computer to determine what it depicts? Recent advances in machine learning, especially among neural network variants, have seen great progress made on the task. 
 
 Nevertheless, it can be helpful to understand and implement some of the classical approaches to this problem, as they still see use in other machine learning applications. Here, we implement the so-called "decision tree". 
 
