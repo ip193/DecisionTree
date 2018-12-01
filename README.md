@@ -40,11 +40,14 @@ To make things even better, adding more trees doesn't even require more data! Us
 
 ## Viewing the results
 
-*To show the results of the classifier in your browser, open DecisionTree.html*.
+*To show the results of the classifier in your browser, open DecisionTree.ipynb*.
 
 Scroll to see the source code and the annotated confusion matrices below. 
 
-*To view, edit, or run the source code directly, open DecisionTree.ipynb*. 
+Make sure you have [Jupyter Notebook](http://jupyter.org/) installed if you want to edit or run the code in your browser!
 
+--------
+
+This project is licensed under the terms of the MIT license.
 
 
